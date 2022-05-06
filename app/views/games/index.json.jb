@@ -1,0 +1,16 @@
+@games.map do |game|
+  {
+    id: game.id,
+    scheduled: game.scheduled,
+    venue: game.venue,
+    capacity: game.capacity,
+    address: game.address,
+    city: game.city,
+    state: game.state,
+    zip: game.zip,
+    home: game.home,
+    away: game.away,
+    lat: game.lat,
+    lon: game.lon
+  }
+end
